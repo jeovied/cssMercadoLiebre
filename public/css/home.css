@@ -1,18 +1,13 @@
-body {
-    background-color: var(--color-amarillo);
-}
-
 header form, input{
-    width: 250px;
+    display: inline;
+    width: 300px;
     height: 30px;
-    margin-left: 20px;
-    padding-right: 0px;
+    margin-left: 10px;
 }
 
 .searchBar button {
     width: 30px;
     padding: 5px 0px;
-    margin: 0px 0px 20px;
 }
 
 .home .burgerMenu {
@@ -21,7 +16,7 @@ header form, input{
     background-color: var(--color-celeste);
     width: 47px;
     padding: 8px 5px 8px 5px;
-    margin: 3% 0px 3% 43%;
+    margin: 4%;
     color: var(--color-gris-claro);
     border-radius: 7px;
 }
@@ -29,21 +24,22 @@ header form, input{
 .home .logo {
     width: 280px;
     padding: 2px 2px;
-    margin: 12px 10px 0px 15px;
+    margin: 12px 10px 25px 15px;
     position: relative;
     top: 15px;
     left: 5px;
 }
 
 p {
-    padding: 0px 20px 10px;
+    padding: 25px 20px 10px;
+    margin: 10px;
 }
 
 .home .menu, ul {
     padding: 10px 10px;
     text-decoration: none;
     list-style: none;
-    text-shadow: black;
+    margin-top: 10px;
 }
 
 .banner {
@@ -66,7 +62,7 @@ article div {
 footer i {
     color: var(--color-celeste);
     font-size: 30px;
-    padding: 15px 0px;
+    padding: 15px;
 }
 
 footer p {
