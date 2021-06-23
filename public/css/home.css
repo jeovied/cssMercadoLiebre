@@ -1,0 +1,75 @@
+body {
+    background-color: var(--color-amarillo);
+}
+
+header form, input{
+    width: 250px;
+    height: 30px;
+    margin-left: 20px;
+    padding-right: 0px;
+}
+
+.searchBar button {
+    width: 30px;
+    padding: 5px 0px;
+    margin: 0px 0px 20px;
+}
+
+.home .burgerMenu {
+    font-size: 22px;
+    text-align: center;
+    background-color: var(--color-celeste);
+    width: 47px;
+    padding: 8px 5px 8px 5px;
+    margin: 3% 0px 3% 43%;
+    color: var(--color-gris-claro);
+    border-radius: 7px;
+}
+
+.home .logo {
+    width: 280px;
+    padding: 2px 2px;
+    margin: 12px 10px 0px 15px;
+    position: relative;
+    top: 15px;
+    left: 5px;
+}
+
+p {
+    padding: 0px 20px 10px;
+}
+
+.home .menu, ul {
+    padding: 10px 10px;
+    text-decoration: none;
+    list-style: none;
+    text-shadow: black;
+}
+
+.banner {
+    display: none;
+}
+
+h1 {
+    padding: 20px 15px;
+    font-size: 24px;
+}
+
+article {
+    padding: 20px 13px;
+}
+
+article div {
+    font-size: 16px;
+}
+
+footer i {
+    color: var(--color-celeste);
+    font-size: 30px;
+    padding: 15px 0px;
+}
+
+footer p {
+    padding: 10px;
+}
+
